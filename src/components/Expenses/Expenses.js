@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+
 import './Expenses.css';
 import Card from '../UI/Card';
-import ExpenseItem from './ExpenseItem';
 import ExpensesFilter from './ExpensesFilter';
+import ExpenseItem from './ExpenseItem';
 import './ExpensesFilter.css';
 
 
@@ -27,7 +28,7 @@ const Expenses = (props) => {
             <ExpenseItem
               title={expense.title}
               amount={expense.amount}
-              date={expense.date}
+              date={expense.date}  
             />
           ))}
     
